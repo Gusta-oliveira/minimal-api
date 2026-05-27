@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MinimalApi.Domain.Entities;
 
 namespace MinimalApi.Infrastructure
 {
     public class DatabaseContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("stringConexão");
-        }
+        public DatabaseContext(DbContextOptions<DatabaseContext> options)
+            : base(options)
+        {}
+        public DbSet<Administrator> Admistrators { get; set; }
     }
 }

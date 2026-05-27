@@ -154,4 +154,4 @@ C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\refint\MinimalAp
 C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\MinimalApi.pdb
 C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\MinimalApi.genruntimeconfig.cache
 C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\ref\MinimalApi.dll
-C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Programação\ASPNET MinimalAPI\MinimalApi\obj\Debug\net10.0\MinimalApi.sourcelink.json

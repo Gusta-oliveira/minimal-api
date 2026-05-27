@@ -20,9 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\Infrascture\" />
     <Folder Include="Domain\Services\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
