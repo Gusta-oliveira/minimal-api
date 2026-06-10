@@ -18,7 +18,7 @@ app.MapGet("/", () => "Olá mundo!");
 
 app.MapPost("/login", (LoginDTO loginDTO) =>
 {
-    if (loginDTO.Email == "1213@test.com.br" && loginDTO.Password == "1234")
+    if (loginDTO.Email == "1213@test.com.br" && loginDTO.Password == "semSenha")
             return Results.Ok("Login realizdo com sucesso");
     return Results.Unauthorized();
 }
